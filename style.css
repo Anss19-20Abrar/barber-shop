@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+/* banner */
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688), url(./image/banner.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+        position: absolute;
+        top: 3%;
+        left: 8%;
+    }
+.banner-text{
+    padding-top: 180px;
+    text-align: center;
+    color: #fff;
+}
+.banner-text h1{
+      font-size: 100px;
+      font-family: 'Kaushan Script', cursive;
+}
+.banner-text p{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.banner-btn{
+    margin: 30px auto 0;
+}
+.banner-btn a{
+    text-decoration: none;
+    width: 100px;
+    color:#fff;
+  
+    margin: 0 8px;
+    padding: 6px 7px;
+    border: 0.5px solid #fff;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+.banner-btn a:hover{
+    color: black;
+}
+.banner-btn a span{
+    height: 100%;
+    width: 0%;
+    background-color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    transition: 0.8s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+/* banner */
+/* navigation */
+#sideNav{
+   width: 200px;
+   height: 1000Vh;
+   position: fixed;
+   top: 0;
+   right: -200px;
+   background-color: #009688;
+   z-index: 2;
+   transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 35px 16px;
+}
+nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    background-color: #009688;
+    z-index: 2;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top:12px auto;
+}
+/* navbar */
+/* features */
+.feature-box{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    background-color: #efefef;
+}
+.feature-box p{
+    color: #009688;
+    font-weight: bold;
+}
+.feature-box h1{
+    color: #38635e;
+}
+.feature-box h1:hover{
+    color: #009688;
+    text-shadow: 2px 2px 4px;
+    cursor: progress;
+}
+.feature{
+    padding: 14px 18px;
+    width: 60%;
+}
+.feature h1{
+    font-size: 17px;
+    padding: 25px;
+}
+.feature p{
+    font-weight: bold;
+    font-size: 13px;
+    padding: 14px;
+}
+.fas{
+    color: #009688;
+    padding: 0 3px;
+}
+.fas:hover{
+    color: #80f7eb;
+}
+.Our-feature{
+    display: flex;
+    width: 100%;
+}
+.feature-img{
+    padding: 0 70px;
+}
+.feature-img img{
+    height: 270px;
+    width: 300px;
+    border-radius: 20px;
+}
+/* feature */
+/* Services */
+.Services{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    background-color: #efefef;
+}
+.Services p{
+    color: #009688;
+    font-weight: bold;
+}
+.Services h1{
+    color: #38635e;
+}
+.Services h1:hover{
+    color: #009688;
+    text-shadow: 2px 2px 4px;
+    cursor: progress;
+}
+.Our-Services{
+width: 100%;
+/* height: 100vh; */
+background-color: #efefef;
+display: grid;
+grid-template-columns:repeat(2,1fr) ;
+grid-gap: 1rem;
+}
+.Services-img{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.Services-img img{
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.5),#009668);
+    z-index: 1;
+    border-radius: 20px; 
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    opacity: 0;
+}
+.Services-img:hover .overlay{
+    opacity: 1;
+}
+.overlay h3{
+    color: #fff;
+}
+.overlay p{
+    color: #fff;
+}
+hr{
+    color: #fff;
+    width: 100px;
+}
+/* Services */
+/* testimonials */
+.Testimonial{
+    text-align: center;
+}
+.Testimonial p{
+    color: #009688;
+    font-weight: bold;
+}
+.Testimonial h1{
+    color: #38635e;
+}
+.Testimonial h1:hover{
+    color: #009688;
+    text-shadow: 2px 2px 4px;
+    cursor: progress;
+}
+.testimonial-img{
+    display: flex;
+    width: 100%;
+}
+.testimonial-img img{
+    width: 58px;
+    border-radius: 7px;
+}
+.our-testimonial{
+    width: 100%;
+    display: flex;
+}
+.testimonia{
+    width: 75%;
+}
+.overlay1{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 4px;
+}
+.overlay1 small:hover{
+    color: #03a9f5;
+}
+.fab{
+    color: #03a9f5;
+}
+.fab:hover{
+    box-shadow: 2px 2px 4px;
+}
+.p1{
+    text-align: left;
+    font-weight: bold;
+}
+/* Testimonial */
+/* MEET */
+.MEET{
+    position: relative;
+    width: 100%;
+    background-color: #efefef;
+}
+.MEET img{
+    width: 25%;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+}
+.MEET1{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.MEET1 p{
+    color: #009688;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.MEET1 h1{
+    color: #065c53;
+    
+}
+.MEET1 h1:hover{
+    color: #009688;
+    text-shadow: 2px 2px 4px;
+    cursor: progress;
+}
+.our-meet{
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+}
+.meet1{
+    width: 35%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 14px;
+}
+.meet2{
+    width: 35%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 14px;
+}
+.meet-last{
+    width: 100%;
+    background: #efefef;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.meet-last ul{
+    width: 25%;
+    margin: auto;
+    display: flex;
+
+}
+.meet-last ul li{
+    list-style: none;
+    
+    
+    padding: 14px;
+   
+}
+.meet-last ul li .fab{
+    color: #009688;
+    font-size: 40px;
+    border: 0.5px solid white ;
+    padding: 3px 3px;
+}
+.meet-last ul li:hover .fab{
+    transform: translatey(-8px);
+    box-shadow: none;
+    background-color: #009688;
+    color: white;
+}
+
+
+
+
+
+
+
+
+

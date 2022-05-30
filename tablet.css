@@ -1,0 +1,65 @@
+.banner-text h1{
+    font-size: 42px;
+}
+.banner-text p{
+    font-size: 13px;
+}
+.banner-btn{
+    margin: 18px;
+}
+.banner-btn a{
+padding: 2px 2px;
+font-size: 10px;
+}
+.logo{
+    width: 100px;
+}
+.feature-box h1{
+    font-size: 22px;
+}
+.feature-img{
+    padding: 0 5px;
+}
+.feature-img img{
+    height: 180px;
+    width: 180px;
+}
+.feature p{
+    padding: 6px;
+}
+.overlay h3{
+    font-size: 4.5vw;
+}
+.overlay p{
+    font-size: 3.5vw;
+}
+hr{
+   
+    width: 70px;
+}
+.Services h1{
+    font-size: 20px;
+}
+.overlay1{
+    padding: 1px;
+    font-size: 12px;
+}
+.p1{
+    font-size: 11px;
+}
+.Testimonial h1{
+    font-size: 21px;
+}
+.testimonial-img img{
+    width: 50px;
+}
+.MEET h1{
+    font-size: 13px;
+}
+.MEET p{
+    font-size: 9px;
+}
+.meet-last ul li .fab{
+    font-size: 12px;
+    padding: 1px 1px;
+}

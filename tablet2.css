@@ -1,0 +1,25 @@
+.Our-feature{
+    flex-direction: column;
+}
+.feature{
+    width: 95%;
+}
+.Our-Services{
+    width: 100%;
+    grid-template-columns: repeat(1, minmax(100%,1fr));
+}
+.our-testimonial{
+    flex-direction: column;
+}
+.meet1{
+    width: 40%;
+    font-size: 11px;
+}
+.meet2{
+    width: 40%;
+    font-size: 11px;
+}
+.meet-last ul{
+    width: 48%;
+
+}
